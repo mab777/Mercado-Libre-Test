@@ -12,7 +12,7 @@ Proyecto ejercitación Front End para ML.
 ## Capturas
 
 Resultados de la busqueda
-![resultadps](https://thumbs.subefotos.com/a1f1825e50d0154bacd736d5d503aacdo.jpg) 
+![resultadps](https://fotos.subefotos.com/a1f1825e50d0154bacd736d5d503aacdo.png) 
 
 ## Autor
 
