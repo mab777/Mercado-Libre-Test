@@ -1,0 +1,52 @@
+@font-face {
+     font-family: 'proxima-nova-regular';
+     src: url('../fonts/proximanova-regular.eot');
+     src: url('../fonts/proximanova-regular?#iefix') format('embedded-opentype'),
+          url('../fonts/proximanova-regular.woff2') format('woff2'),
+          url('../fonts/proximanova-regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+   
+ @font-face {
+     font-family: 'proxima-nova-light';
+     src: url('../fonts/proximanova-light.eot');
+     src: url('../fonts/proximanova-light.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/proximanova-light.woff2') format('woff2'),
+          url('../fonts/proximanova-light.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+   }
+   
+   @font-face {
+     font-family: 'proxima-nova-bolt';
+     src: url('../fonts/proximanova-semibold.eot');
+     src: url('../fonts/proximanova-semibold.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/proximanova-semibold.woff2') format('woff2'),
+          url('../fonts/proximanova-semibold.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+   }
+
+//colors
+$color-ml: #FFE600;
+$color-black: #333333;
+$color-soft-gray: #999999;
+$color-gray: #666666;
+$color-light-gray: #EEEEEE;
+$color-blue: #3484FA;
+$color-white: #ffffff;
+
+//Fonts
+$font-regular:'proxima-nova-regular';
+$font-light:'proxima-nova-light';
+$font-bolt:'proxima-nova-bolt';
+
+//BreakPoints
+$mobil: 480px;
+$mobil2: 540px;
+$Tablets-min: 768px;
+$Tablet: 960px;
+$Tablets-max: 1024px;
+$MaxDesk: 1366px;
+

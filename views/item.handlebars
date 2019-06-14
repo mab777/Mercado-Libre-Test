@@ -1,0 +1,27 @@
+<div class="items">
+    <p class="category">
+        {{#if category}}
+            category
+        {{/if}}
+    </p>
+
+    <div class="container_det">
+        <div class="picture_det">
+            <img src="{{picture}}" style="" alt="">
+        </div>
+        <div class="info_det_div">
+            <p class="text_sould-detail">{{condition}} - {{sold_quantity}} vendidos</p>
+            <p class="text_title_detail">{{item.title}}</p>
+            <p class="text_price_detail">$ {{item.price.amount}}</p>
+            <button class="btn-shop">Comprar</button>
+        </div>
+        <div class="description_det">
+            <p class="text_title_description">Descripción del Producto</p>
+            <p class="text_description">{{description}}</p>
+        </div>
+    </div>
+</div>
+
+
+
+

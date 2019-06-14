@@ -1,0 +1,103 @@
+@import 'components';
+
+.container-box{ @include flex;}
+
+a{
+text-decoration: none;
+color: $color-black;
+}
+
+.text-category{
+    font-size:14px;
+    font-family: $font-light;
+    @include marginTopBottom(16px);
+}
+
+.content-thumbnail{
+    padding: 16px;
+    flex: 0;
+    img {
+        width: 180px;
+        height: 180px;
+        border-radius: 4px;
+    }
+}
+
+.content-info{
+    padding-left: 16px;
+    flex: 1;
+}
+.content-address{
+    flex: 1;
+    text-align: center;
+}
+
+.text-title{
+    font-size: 18px;
+    font-family: $font-light;
+}
+
+.text-address{
+   font-size: 12px;
+   margin-top: 36px;
+   font-family: $font-light;
+}
+
+.text-price{
+    font-family: $font-bolt;
+    font-size: 24px;
+}
+
+.nofound{
+    margin-left: 5%;
+}
+
+
+@media (min-width: $mobil2) and (max-width:$Tablets-min) {
+
+    .container-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .content-info{
+        text-align: center;
+        margin-right: 16px;
+    }
+    .content-thumbnail{
+        padding: 10px;
+    }
+
+    .content-address{
+        margin: 0px;
+        justify-content: center;
+
+    }
+
+    .text-title{font-size:14px; }
+    .text-price{font-size: 16px;}
+    .text-address{margin-top: 0px}
+}
+
+
+@media (max-width: $mobil2) {
+    .items{
+        @include marginLeftRight(4%);  
+    }
+    .container-box {
+        display: block;
+    }
+    .content-info{
+        text-align: center;
+        margin-right: 16px;
+    }
+    .content-thumbnail{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .text-title{font-size:14px; margin: 2px}
+    .text-price{font-size: 16px; margin: 2px}
+    .text-address{margin: 2px}
+}

@@ -1,0 +1,494 @@
+@font-face {
+  font-family: 'proxima-nova-regular';
+  src: url("../fonts/proximanova-regular.eot");
+  src: url("../fonts/proximanova-regular?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular.woff2") format("woff2"), url("../fonts/proximanova-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima-nova-light';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima-nova-bolt';
+  src: url("../fonts/proximanova-semibold.eot");
+  src: url("../fonts/proximanova-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibold.woff2") format("woff2"), url("../fonts/proximanova-semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000335}}
+.background {
+  background-color: #EEEEEE;
+  height: 100vh;
+  margin: 0px;
+  font-family: "proxima-nova-regular";
+  color: #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000343}}
+.nav-bar {
+  background-color: #FFE600;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 8px;
+  padding-top: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000351}}
+.logo {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000352}}
+.items {
+  margin-left: 15%;
+  margin-right: 15%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000329}}
+::-webkit-input-placeholder {
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000330}}
+:-moz-placeholder {
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000331}}
+::-moz-placeholder {
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000332}}
+:-ms-input-placeholder {
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000355}}
+button {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000359}}
+.btn-search {
+  padding: 6px;
+  width: 40px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000369}}
+.flexContainer {
+  display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000371}}
+.container {
+  width: 100%;
+  background-color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000377}}
+.inputField {
+  flex: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000379}}
+.formulario {
+  float: left;
+  width: 97%;
+  margin-left: 3%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000385}}
+input[type=text] {
+  width: 100%;
+  border: 2px solid #ffffff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 2px;
+  font-size: 18px;
+  margin-left: 4px;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: .3s; }
+
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\00003101}}
+  .nav-bar {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 8px;
+    padding-top: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\00003105}}
+  input[type=text] {
+    font-size: 12px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\000033}}
+.container_det {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 680px 1fr;
+  grid-template-rows: 680px 1fr; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000310}}
+.picture_det {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000316}}
+.info_det_div {
+  margin-right: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000320}}
+.description_det {
+  margin-left: 32px;
+  margin-bottom: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000325}}
+.btn-shop {
+  background-color: #3484FA;
+  color: #ffffff;
+  font-family: "proxima-nova-regular";
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000336}}
+.text_title_detail {
+  margin-top: 0px;
+  font-family: "proxima-nova-bolt";
+  font-size: 24px;
+  margin-bottom: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000344}}
+.text_price_detail {
+  margin-top: 0px;
+  font-family: "proxima-nova-bolt";
+  font-size: 46px;
+  margin-bottom: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000352}}
+.text_title_description {
+  margin-top: 16px;
+  font-family: "proxima-nova-light";
+  font-size: 28px;
+  margin-bottom: 32px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000360}}
+.text_description {
+  margin-top: 0px;
+  font-family: "proxima-nova-light";
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000367}}
+.text_sould-detail {
+  margin-top: 32px;
+  margin-bottom: 16px; }
+
+@media (min-width: 1366px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000375}}
+  .container_det {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.75fr 1fr; } }
+@media (min-width: 768px) and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000384}}
+  .container_det {
+    flex-wrap: wrap;
+    display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000389}}
+  .info_det_div {
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\0000394}}
+  .picture_det {
+    width: 100%; } }
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\00003100}}
+  .container_det {
+    display: flex;
+    flex-flow: row wrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\00003105}}
+  .picture_det {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\00003107}}
+    .picture_det img {
+      width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\00003112}}
+  .info_det_div {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\00003115}}
+    .info_det_div .text_title_detail {
+      margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\00003118}}
+  .description_det {
+    margin-left: 10px;
+    margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\00003120}}
+    .description_det .text_title_description {
+      font-size: 22px;
+      margin-bottom: 10px;
+      margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/item\.scss}line{font-family:\00003121}}
+    .description_det .text_description {
+      font-size: 12px; } }
+@font-face {
+  font-family: 'proxima-nova-regular';
+  src: url("../fonts/proximanova-regular.eot");
+  src: url("../fonts/proximanova-regular?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular.woff2") format("woff2"), url("../fonts/proximanova-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima-nova-light';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff2") format("woff2"), url("../fonts/proximanova-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima-nova-bolt';
+  src: url("../fonts/proximanova-semibold.eot");
+  src: url("../fonts/proximanova-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibold.woff2") format("woff2"), url("../fonts/proximanova-semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000335}}
+.background {
+  background-color: #EEEEEE;
+  height: 100vh;
+  margin: 0px;
+  font-family: "proxima-nova-regular";
+  color: #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000343}}
+.nav-bar {
+  background-color: #FFE600;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 8px;
+  padding-top: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000351}}
+.logo {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000352}}
+.items {
+  margin-left: 15%;
+  margin-right: 15%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000329}}
+::-webkit-input-placeholder {
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000330}}
+:-moz-placeholder {
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000331}}
+::-moz-placeholder {
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000332}}
+:-ms-input-placeholder {
+  color: #999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000355}}
+button {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000359}}
+.btn-search {
+  padding: 6px;
+  width: 40px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000369}}
+.flexContainer {
+  display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000371}}
+.container {
+  width: 100%;
+  background-color: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000377}}
+.inputField {
+  flex: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000379}}
+.formulario {
+  float: left;
+  width: 97%;
+  margin-left: 3%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\0000385}}
+input[type=text] {
+  width: 100%;
+  border: 2px solid #ffffff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 2px;
+  font-size: 18px;
+  margin-left: 4px;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: .3s; }
+
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\00003101}}
+  .nav-bar {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 8px;
+    padding-top: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/components\.scss}line{font-family:\00003105}}
+  input[type=text] {
+    font-size: 12px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\000033}}
+.container-box {
+  display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\000035}}
+a {
+  text-decoration: none;
+  color: #333333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000310}}
+.text-category {
+  font-size: 14px;
+  font-family: "proxima-nova-light";
+  margin-top: 16px;
+  margin-bottom: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000316}}
+.content-thumbnail {
+  padding: 16px;
+  flex: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000319}}
+  .content-thumbnail img {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000326}}
+.content-info {
+  padding-left: 16px;
+  flex: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000330}}
+.content-address {
+  flex: 1;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000335}}
+.text-title {
+  font-size: 18px;
+  font-family: "proxima-nova-light"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000340}}
+.text-address {
+  font-size: 12px;
+  margin-top: 36px;
+  font-family: "proxima-nova-light"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000346}}
+.text-price {
+  font-family: "proxima-nova-bolt";
+  font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000351}}
+.nofound {
+  margin-left: 5%; }
+
+@media (min-width: 540px) and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000358}}
+  .container-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000364}}
+  .content-info {
+    text-align: center;
+    margin-right: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000368}}
+  .content-thumbnail {
+    padding: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000372}}
+  .content-address {
+    margin: 0px;
+    justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000378}}
+  .text-title {
+    font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000379}}
+  .text-price {
+    font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000380}}
+  .text-address {
+    margin-top: 0px; } }
+@media (max-width: 540px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000385}}
+  .items {
+    margin-left: 4%;
+    margin-right: 4%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000388}}
+  .container-box {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000391}}
+  .content-info {
+    text-align: center;
+    margin-right: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\0000395}}
+  .content-thumbnail {
+    padding: 10px;
+    display: flex;
+    justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\00003100}}
+  .text-title {
+    font-size: 14px;
+    margin: 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\00003101}}
+  .text-price {
+    font-size: 16px;
+    margin: 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Martin\/Programacion\/ML\/TestMercadoLibre\/views\/scss\/items\.scss}line{font-family:\00003102}}
+  .text-address {
+    margin: 2px; } }
+
+/*# sourceMappingURL=main.css.map */

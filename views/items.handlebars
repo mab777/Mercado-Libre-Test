@@ -1,0 +1,45 @@
+<div class="items">
+    <p class="text-category" id="category">
+        {{#if categories}}
+            {{#each categories}}
+                {{#if @first}} {{this}}
+                {{else}}
+                > {{this}}
+                {{/if}} 
+            {{/each}}
+        {{/if}}                      
+    </p>
+    
+    <div class="container">
+        <!-- si no traigo resultados -->
+        {{#if nofound}}
+            <div class="container-box">
+               <p class="nofound text-title"> {{nofound}}</p>
+            </div>
+        {{/if}}
+        <!-- en caso de obtener resultados -->
+        {{#if items}}
+            {{#each items}}
+            <a href="/api/items/{{id}}">
+            <div class="container-box">
+                <div class="content-thumbnail"><img src="{{picture}}" alt=""></div>
+                <div class="content-info">
+                    <p class="text-price">
+                        $ {{price.amount}}
+                         {{#if free_shipping}}
+                        <img src="/img/ic_shipping.png" alt="">
+                    {{/if}}
+                    </p> 
+                    <p class="text-title">{{title}}</p>
+                </div>
+                <div class="content-address">
+                    <p class="text-address">{{address}}</p>
+                </div>
+            </div>
+            </a>
+        {{/each}}
+    {{/if}}
+    </div>
+</div>
+
+

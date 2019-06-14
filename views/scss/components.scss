@@ -1,0 +1,118 @@
+@import 'variables';
+
+//Functions
+@mixin flex {display: flex;}
+
+@mixin marginLeftRight ($value){
+    margin-left: $value;
+    margin-right: $value; 
+}
+
+@mixin marginTopBottom ($value){
+    margin-top: $value;
+    margin-bottom: $value; 
+}
+@mixin padding ($leftRight,$UpDown){
+    padding-left: $leftRight;
+    padding-right: $leftRight;
+    padding-bottom: $UpDown;
+    padding-top: $UpDown;
+}
+
+@mixin center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin placeholder {
+    ::-webkit-input-placeholder {@content}
+    :-moz-placeholder           {@content}
+    ::-moz-placeholder          {@content}
+    :-ms-input-placeholder      {@content}  
+}
+
+.background{
+    background-color: $color-light-gray;
+    height: 100vh;
+    margin: 0px;
+    font-family: $font-regular;
+    color: $color-black;
+}
+
+.nav-bar {
+    background-color: $color-ml;
+    height: 37px;
+    display: flex;
+    @include center();
+    @include padding(15%,8px);
+}
+    
+.logo{ float: left;}
+.items{ @include marginLeftRight(15%);}
+@include placeholder {color: $color-soft-gray;}
+
+button{
+    border: none;
+}
+
+.btn-search {
+    padding: 6px;
+    width: 40px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: $color-light-gray;
+    @include flex;
+    @include center();
+}
+
+.flexContainer {@include flex;}
+
+.container
+{ 
+    width: 100%;
+    background-color: $color-white;
+}
+
+.inputField {flex: 1;}
+
+.formulario {
+    float: left;
+    width: 97%;
+    margin-left: 3%;
+}
+
+input[type=text]{
+    width:100%;
+    border:2px solid $color-white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 2px;
+    font-size: 18px;
+    margin-left: 4px;
+    outline:none;
+    padding:5px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+
+  @media (max-width: $mobil) {
+    .nav-bar{
+        @include padding(4%,8px);
+    }
+
+    input[type=text]{
+        font-size: 12px;
+    }
+}
+
+
+  
+  
+
+
+
+
+
+  

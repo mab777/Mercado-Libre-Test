@@ -1,0 +1,123 @@
+@import 'components';
+
+.container_det{
+    background-color: $color-white;
+    display: grid;
+    grid-template-columns: 680px 1fr;
+    grid-template-rows: 680px 1fr;
+}
+
+.picture_det{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_det_div{
+    margin-right: 32px;
+}
+
+.description_det{
+    margin-left: 32px;
+    margin-bottom: 32px; 
+}
+
+.btn-shop
+{
+    background-color: $color-blue;
+    color: $color-white;
+    font-family: $font-regular;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text_title_detail
+{
+    margin-top: 0px;
+    font-family: $font-bolt;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.text_price_detail
+{
+    margin-top: 0px;
+    font-family: $font-bolt;
+    font-size: 46px;
+    margin-bottom: 32px;
+}
+
+.text_title_description
+{
+    margin-top: 16px;
+    font-family: $font-light;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+
+.text_description
+{
+    margin-top: 0px;
+    font-family: $font-light;
+    font-size: 16px;
+}
+
+.text_sould-detail
+{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+
+@media (min-width: $MaxDesk) {
+    .container_det{
+        background-color: $color-white;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 0.75fr 1fr;
+    }
+}
+
+@media (min-width: $Tablets-min)and (max-width: 1200px){
+    .container_det{
+        flex-wrap: wrap;
+        display: flex;       
+    }
+
+    .info_det_div {
+        text-align: center;
+        @include marginLeftRight(32px);
+        width: 100%;
+    }
+    .picture_det{
+        width:100%;
+    }
+}
+
+@media (max-width: $Tablets-min) {
+    .container_det{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .picture_det{
+        display: block;
+        img{
+            width: 100%;
+        }
+    }
+
+    .info_det_div{
+        @include marginLeftRight(10px);
+        text-align: center;
+        .text_title_detail{margin-bottom: 10px}
+    }
+
+    .description_det{
+        @include marginLeftRight(10px);
+        .text_title_description{ font-size: 22px; margin-bottom: 10px; margin-top: 30px;}
+        .text_description{ font-size: 12px}
+    }
+}
